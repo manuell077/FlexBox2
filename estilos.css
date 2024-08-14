@@ -1,0 +1,96 @@
+@import url("variables.css");
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+    
+}
+
+
+
+.fondo{
+
+    background-color: var(--color-negro);
+    display: flex;
+    justify-content: space-between;
+    height: var(--altoMenu);
+}
+
+.fondo__logo{
+    
+   width: 20%;
+   height: 80%;
+   margin: 10px;
+
+}
+
+.fondo__item{
+    list-style-type: none;
+    
+    padding: var(--padding-predeterminado);
+    
+
+
+}
+
+.fondo__lista{
+    position: absolute;
+    height: var(--altoMenu) ;
+    left: 20%;
+    display: flex;
+    
+}
+
+
+.fondo__texto{
+    
+    color: var(--color-blanco);
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    justify-content: center;
+    
+    
+}
+
+.fondo__item:hover{
+    background-color: var(--colorFondo-hover);
+    
+    
+
+}
+.fondo__texto:hover{
+    color: var(--colorTexto-hover);
+
+}
+
+.fondo__icono{
+    margin-top: 10px;
+    justify-content: flex-end;
+    width: 40px;
+    height: 70%;
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 100%;
+     background-color: var(--color-blanco);
+
+}
+
+.fondo__icono:hover{
+    cursor: pointer;
+    background-color: var(--colorFondoLupa-hover);
+}
+
+
+
+
+
+
+
+
+
+
+
+
